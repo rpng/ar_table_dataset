@@ -1,0 +1,4 @@
+imu_topic: "/d455/imu"
+imu_rate: 400
+measure_rate: 400
+sequence_time: 73712
