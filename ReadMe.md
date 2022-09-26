@@ -67,12 +67,12 @@ implementation details and references. For researchers that have leveraged or co
 
 ```txt
 @misc{GITHUB_ARTABLE,
-	title        = {Small-scale indoor table {AR} visual-inertial datasets with {6DoF} groundtruth},
-	author       = {Patrick Geneva and Chuchu Chen and Yuxiang Peng and Woosik Lee and Chinmay Burgul and Guoquan Huang},
-	year         = 2022,
-	journal      = {GitHub repository},
-	publisher    = {GitHub},
-	howpublished = {\url{https://github.com/rpng/ar_table_dataset}},
+  title        = {Small-scale indoor table {AR} visual-inertial datasets with {6DoF} groundtruth},
+  author       = {Patrick Geneva and Chuchu Chen and Yuxiang Peng and Woosik Lee and Chinmay Burgul and Guoquan Huang},
+  year         = 2022,
+  journal      = {GitHub repository},
+  publisher    = {GitHub},
+  howpublished = {\url{https://github.com/rpng/ar_table_dataset}},
 }
 ```
 
