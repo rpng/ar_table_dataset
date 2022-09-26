@@ -19,14 +19,14 @@ The groundtruth for trajectory evaluation can be found in the [groundtruth/](gro
 
 |        | Data | Length (m) | Video (x10) |
 |:------:|:-------:|:-------:|:-----:|
-| table1 | [rosbag]() | 0.0 | [link](ReadMe_Videos.md#table_01) |
-| table2 | [rosbag]() | 0.0 | [link](ReadMe_Videos.md#table_02) |
-| table3 | [rosbag]() | 0.0 | [link](ReadMe_Videos.md#table_03) |
-| table4 | [rosbag]() | 0.0 | [link](ReadMe_Videos.md#table_04) |
-| table5 | [rosbag]() | 0.0 | [link](ReadMe_Videos.md#table_05) |
-| table6 | [rosbag]() | 0.0 | [link](ReadMe_Videos.md#table_06) |
-| table7 | [rosbag]() | 0.0 | [link](ReadMe_Videos.md#table_07) |
-| table8 | [rosbag]() | 0.0 | [link](ReadMe_Videos.md#table_08) |
+| table1 | [rosbag]() | 55.6 | [link](ReadMe_Videos.md#table_01) |
+| table2 | [rosbag]() | 43.6 | [link](ReadMe_Videos.md#table_02) |
+| table3 | [rosbag]() | 87.9 | [link](ReadMe_Videos.md#table_03) |
+| table4 | [rosbag]() | 91.4 | [link](ReadMe_Videos.md#table_04) |
+| table5 | [rosbag]() | 75.5 | [link](ReadMe_Videos.md#table_05) |
+| table6 | [rosbag]() | 49.9 | [link](ReadMe_Videos.md#table_06) |
+| table7 | [rosbag]() | 63.0 | [link](ReadMe_Videos.md#table_07) |
+| table8 | [rosbag]() | 125.0 | [link](ReadMe_Videos.md#table_08) |
 
 
 
