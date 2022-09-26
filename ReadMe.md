@@ -38,7 +38,7 @@ The parameters were found using the [allan_variance_ros](https://github.com/ori-
 Result files can be found in the [calibration/](calibration/) folder.
 
 |         | ROS Bag | Results |
-|:-------:|:-------:|
+|:-------:|:-------:|:-------:|
 | color1 | [download](https://drive.google.com/file/d/1YR_7qZfSidkCXLZZjPTRSeD1KnCG-mKD/view?usp=sharing) | [imu-camchain](calibration/kalibr_color_0_imu/) |
 | color2 | [download](https://drive.google.com/file/d/1DeeObZC4Y7IAGS6fMFoEiGriLVn5IME3/view?usp=sharing) | [imu-camchain](calibration/kalibr_color_1_imu/) |
 | static  | [download](https://drive.google.com/file/d/15sQDbNIn7GCK6641gomuzFsAX3B0UpYu/view?usp=sharing) | [plots](calibration/imu/) |
