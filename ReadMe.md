@@ -1,5 +1,5 @@
 
-# Indoor AR Table Dataset
+# Indoor AR Table Visual-Inertial Datasets
 
 
 ![](d455_drivers/img/merged_overview.jpg)
@@ -66,9 +66,9 @@ University of Delaware. If you have any issues with the data please open an issu
 implementation details and references. For researchers that have leveraged or compared to this work, add a footnote to this repository, or use the following citation:
 
 ```txt
-@misc{Geneva2022_ARTABLE,
+@misc{GITHUB_ARTABLE,
 	title        = {Small-scale indoor table {AR} visual-inertial datasets with {6DoF} groundtruth},
-	author       = {Patrick Geneva and Chuchu Chen and Yuxiang Peng and Woosik Lee and Guoquan Huang},
+	author       = {Patrick Geneva and Chuchu Chen and Yuxiang Peng and Woosik Lee and Chinmay Burgul and Guoquan Huang},
 	year         = 2022,
 	journal      = {GitHub repository},
 	publisher    = {GitHub},
