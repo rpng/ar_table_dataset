@@ -17,7 +17,7 @@ Groundtruth for the IMU of each platform is found through the [vicon2gt](https:/
 Each dataset has the system starting and ending at around the same location and starting from stationary.
 The groundtruth for trajectory evaluation can be found in the [groundtruth/](groundtruth/) folder.
 
-|        | Data | Length (m) | Video (x5) |
+|        | Data | Length (m) | Video (x10) |
 |:------:|:-------:|:-------:|:-----:|
 | table1 | [rosbag]() | 0.0 | [link](ReadMe_Videos.md#table_01) |
 | table2 | [rosbag]() | 0.0 | [link](ReadMe_Videos.md#table_02) |
@@ -37,11 +37,11 @@ Additionally, a 20 hour static IMU dataset was recorded to recover the IMU intri
 The parameters were found using the [allan_variance_ros](https://github.com/ori-drs/allan_variance_ros) toolbox.
 Result files can be found in the [calibration/](calibration/) folder.
 
-|         | ROS Bag |
+|         | ROS Bag | Results |
 |:-------:|:-------:|
-| color1 | [download](https://drive.google.com/file/d/1YR_7qZfSidkCXLZZjPTRSeD1KnCG-mKD/view?usp=sharing) |
-| color1 | [download](https://drive.google.com/file/d/1DeeObZC4Y7IAGS6fMFoEiGriLVn5IME3/view?usp=sharing) |
-| static  | [download](https://drive.google.com/file/d/15sQDbNIn7GCK6641gomuzFsAX3B0UpYu/view?usp=sharing) |
+| color1 | [download](https://drive.google.com/file/d/1YR_7qZfSidkCXLZZjPTRSeD1KnCG-mKD/view?usp=sharing) | [imu-camchain](calibration/kalibr_color_0_imu/) |
+| color2 | [download](https://drive.google.com/file/d/1DeeObZC4Y7IAGS6fMFoEiGriLVn5IME3/view?usp=sharing) | [imu-camchain](calibration/kalibr_color_1_imu/) |
+| static  | [download](https://drive.google.com/file/d/15sQDbNIn7GCK6641gomuzFsAX3B0UpYu/view?usp=sharing) | [plots](calibration/imu/) |
 
 
 
