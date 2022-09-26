@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+    <arg name="server" default="10.0.0.2" />
+    <arg name="local" default="10.0.0.22" />
+    <arg name="multicast_group" default="239.255.42.99" />
+    <arg name="command_port" default="1510" />
+    <arg name="data_port" default="1511" />
+    <arg name="pub_residuals" default="false" />
+
+    <!-- (e.g., "/<vehicle>/<topic_subname>") -->
+    <arg name="topic_subname" default="rigidbody" />
+
+    <node pkg="optitrack" type="optitrack" name="optitrack" output="screen">
+        <param name="local" value="$(arg local)" />
+        <param name="server" value="$(arg server)" />
+        <param name="multicast_group" value="$(arg multicast_group)" />
+        <param name="command_port" value="$(arg command_port)" />
+        <param name="data_port" value="$(arg data_port)" />
+        <param name="pub_residuals" value="$(arg pub_residuals)" />
+        <param name="topic_subname" value="$(arg topic_subname)" />
+    </node>
+
+    <node pkg="tf2_ros" type="static_transform_publisher" name="optitrack2world_broadcaster" args="0 0 0 0 0 0 world optitrack" />
+
+</launch>

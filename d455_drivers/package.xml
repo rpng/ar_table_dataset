@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package format="3">
+
+    <!-- Package Information -->
+    <name>d455_drivers</name>
+    <version>0.0.0</version>
+    <description>
+        Launch files and other things
+    </description>
+
+    <!-- Code Authors -->
+    <author email="pgeneva@udel.edu">Patrick Geneva</author>
+    <maintainer email="pgeneva@udel.edu">Patrick Geneva</maintainer>
+
+    <!-- Licensing -->
+    <license>GNU General Public License v3.0</license>
+
+    <!-- ROS1: Dependencies needed to compile this package. -->
+    <buildtool_depend condition="$ROS_VERSION == 1">catkin</buildtool_depend>
+
+
+</package>
