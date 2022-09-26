@@ -7,7 +7,7 @@
 
 In this dataset we collected a series small-scale indoor table AR visual-inertial datasets ranging from 1-2 minutes in length.
 A [Intel RealSense Depth Camera D455](https://www.intelrealsense.com/depth-camera-d455/) is equipped with groundtruth Optitrack markers and provides color monocular image at 30Hz and a 400Hz IMU inertial feed from its Bosch BMI055 IMU.
-Additionally, the depth projected into the color image is also recorded (untested).
+Additionally, the depth projected into the color image by the realsense driver is also recorded (untested).
 Groundtruth for the IMU of each platform is found through the [vicon2gt](https://github.com/rpng/vicon2gt) utility package developed by our group.
 
 
