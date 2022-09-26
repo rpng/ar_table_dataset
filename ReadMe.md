@@ -2,7 +2,7 @@
 # Indoor AR Table Dataset
 
 
-![](d455_drivers/img/merged_overview.png)
+![](d455_drivers/img/merged_overview.jpg)
 
 
 In this dataset we collected a series small-scale indoor table AR visual-inertial datasets ranging from 1-2 minutes in length.
