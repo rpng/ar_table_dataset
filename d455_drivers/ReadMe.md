@@ -21,3 +21,11 @@ sudo apt-get install librealsense2-utils
 ```
 
 
+
+## Optitrack Driver
+
+
+- URL: https://github.com/mit-acl/optitrack
+- Commit: `05e7b1b4fc93e501eccfc7100b44602e03cd76ce`
+
+
