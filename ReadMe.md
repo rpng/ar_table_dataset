@@ -65,14 +65,15 @@ This dataset was collected by the [Robot Perception and Navigation Group (RPNG)]
 University of Delaware. If you have any issues with the data please open an issue on our github page with relevant
 implementation details and references. For researchers that have leveraged or compared to this work, add a footnote to this repository, or use the following citation:
 
-```txt
-@misc{GITHUB_ARTABLE,
-  title        = {Small-scale indoor table {AR} visual-inertial datasets with {6DoF} groundtruth},
-  author       = {Patrick Geneva and Chuchu Chen and Yuxiang Peng and Woosik Lee and Chinmay Burgul and Guoquan Huang},
-  year         = 2022,
-  journal      = {GitHub repository},
-  publisher    = {GitHub},
-  howpublished = {\url{https://github.com/rpng/ar_table_dataset}},
+
+```bibtex
+@Conference{Chen2023ICRA,
+  Title      = {Monocular Visual-Inertial Odometry with Planar Regularities},
+  Author     = {Chuchu Chen and Patrick Geneva and Yuxiang Peng and Woosik Lee and Guoquan Huang},
+  Booktitle  = {Proc. of the IEEE International Conference on Robotics and Automation},
+  Year       = {2023},
+  Address    = {London, UK},
+  Url        = {\url{https://github.com/rpng/ov_plane}}
 }
 ```
 
