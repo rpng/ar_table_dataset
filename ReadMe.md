@@ -11,6 +11,10 @@ Additionally, the depth projected into the color image by the realsense driver i
 Groundtruth for the IMU of each platform is found through the [vicon2gt](https://github.com/rpng/vicon2gt) utility package developed by our group.
 
 
+If you are interested in running visual-inertial odometry on this dataset, please checkout the [ov_plane](https://github.com/rpng/ov_plane) project along with [OpenVINS](https://docs.openvins.com/gs-datasets.html#gs-data-rpng-ar-table).
+Both can run on this dataset, with the former supporting estimation of enviromential planes to improve performance and enable augumented experiences.
+Please check it out!
+
 ## Quick View
 
 ```
